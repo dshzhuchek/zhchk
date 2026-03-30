@@ -3,9 +3,9 @@
     font-family: "Cygre";
     src: local("Cygre Light"),
 		local("Cygre-400"),
-         url("css/font/Cygre-Regular.woff2") format("woff2"),
-         url("css/font/Cygre-Regular.woff") format("woff"),
-         url("css/font/Cygre-Regular.ttf") format("truetype");
+         url("font/Cygre-Regular.woff2") format("woff2"),
+         url("font/Cygre-Regular.woff") format("woff"),
+         url("font/Cygre-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
@@ -14,9 +14,9 @@
     font-family: "Cygre";
     src: local("Cygre Regular"),
 		 local("Cygre-500"),
-         url("css/font/Cygre-Light.woff2") format("woff2"),
-         url("css/font/Cygre-Light.woff") format("woff"),
-         url("css/font/Cygre-Light.ttf") format("truetype");
+         url("font/Cygre-Light.woff2") format("woff2"),
+         url("font/Cygre-Light.woff") format("woff"),
+         url("font/Cygre-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
 }
