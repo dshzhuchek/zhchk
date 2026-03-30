@@ -473,7 +473,8 @@
         .section-title {
             font-size: 64px;
             color: #F50004;
-            font-family: 'Cygre Regular';
+            font-family: 'Cygre';
+			font-weight: 500;
             margin-bottom: 64px;
         }
 
