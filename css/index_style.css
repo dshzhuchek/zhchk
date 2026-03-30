@@ -7,7 +7,7 @@
          url("font/Cygre-Regular.woff") format("woff"),
          url("font/Cygre-Regular.ttf") format("truetype");
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @font-face {
@@ -18,7 +18,7 @@
          url("font/Cygre-Light.woff") format("woff"),
          url("font/Cygre-Light.ttf") format("truetype");
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
 }
 
         * {
