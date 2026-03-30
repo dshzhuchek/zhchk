@@ -1,6 +1,6 @@
 @charset "utf-8";
 @font-face {
-    font-family: "Montserrat";
+    font-family: "Cygre";
     src: local("Cygre Light"),
 		local("Cygre-400"),
          url("css/font/Cygre-Regular.woff2") format("woff2"),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "Cygre";
     src: local("Cygre Regular"),
 		 local("Cygre-500"),
          url("css/font/Cygre-Light.woff2") format("woff2"),
