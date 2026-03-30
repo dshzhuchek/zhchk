@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THINDER | Daria Zhuk</title>
+  	<link rel="stylesheet" type="text/css" href="css/thinder_style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">zhchk</a>
+        <div class="nav">
+            <div class="nav-item">
+                <button class="nav-link" data-scroll="about" data-page="index">обо мне</button>
+                <img class="nav-star" 
+                     src="css/imgs/main/starhov.svg"
+                     alt="star"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 30 30\'%3E%3Cpolygon points=\'15,4 18,11 26,11 20,16 23,23 15,18 7,23 10,16 4,11 12,11 15,4\' fill=\'%23F50004\'/%3E%3C/svg%3E'">
+            </div>
+            <div class="nav-item">
+                <button class="nav-link" data-scroll="projects" data-page="index">проекты</button>
+                <img class="nav-star" 
+                     src="css/imgs/main/starhov.svg"
+                     alt="star"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 30 30\'%3E%3Cpolygon points=\'15,4 18,11 26,11 20,16 23,23 15,18 7,23 10,16 4,11 12,11 15,4\' fill=\'%23F50004\'/%3E%3C/svg%3E'">
+            </div>
+            <div class="nav-item">
+                <button class="nav-link" data-scroll="contacts" data-page="index">контакты</button>
+                <img class="nav-star" 
+                     src="css/imgs/main/starhov.svg"
+                     alt="star"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 30 30\'%3E%3Cpolygon points=\'15,4 18,11 26,11 20,16 23,23 15,18 7,23 10,16 4,11 12,11 15,4\' fill=\'%23F50004\'/%3E%3C/svg%3E'">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="project-hero">
+            <div class="row">
+                <div class="col-4 empty-col"></div>
+                <div class="col-4">
+                    <div class="name-container">
+                        <img class="name-image" 
+                             src="css/imgs/thinder/name.svg"
+                             alt="THINDER"
+                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 100\'%3E%3Crect width=\'400\' height=\'100\' fill=\'%23B7C9E2\'/%3E%3Ctext x=\'200\' y=\'65\' font-size=\'36\' text-anchor=\'middle\' fill=\'%231a1a2e\'%3ETHINDER%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+                <div class="col-4 empty-col"></div>
+            </div>
+
+            <div class="hero-row">
+                <div class="col-2 empty-col"></div>
+                <div class="col-8">
+                    <div class="hero-image-container">
+                        <img class="hero-image" 
+                             src="css/imgs/thinder/first.png"
+                             alt="THINDER project"
+                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 800 1000\'%3E%3Crect width=\'800\' height=\'1000\' fill=\'%23B7C9E2\'/%3E%3Ccircle cx=\'400\' cy=\'450\' r=\'180\' fill=\'%2393A9C9\'/%3E%3Ctext x=\'400\' y=\'500\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23666\'%3ETHINDER%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="caption-container">
+                        <span class="caption-left">веб-приложение для обмена вещами</span>
+                        <span class="caption-right">2025</span>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="hero-text-right" id="rightText">
+                        <p><span class="red-text">Соавтор</span> <br>
+                        <a href="https://esoundedby.com" target="_blank" rel="noopener noreferrer">Дарья Леоненко</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="task-section">
+            <div class="row">
+                <div class="col-3 empty-col"></div>
+                <div class="col-4">
+                    <div class="task-title">Задача</div>
+                    <div class="task-text" id="firstTaskText">
+                        Спроектировать интерфейс веб-приложения, который&nbsp;сможет объединить две противоположные механики: быстрый выбор вещей,&nbsp;как&nbsp;в&nbsp;маркетплейсе и&nbsp;социальное взаимодействие, как&nbsp;в&nbsp;дейтинге
+                    </div>
+                </div>
+                <div class="col-1 empty-col"></div>
+                <div class="col-3">
+                    <div class="task-text" id="secondTaskText">
+                        Также требовалось создать простой онбординг и&nbsp;понятную систему рейтинга для&nbsp;безопасного комьюнити
+                    </div>
+                </div>
+                <div class="col-1 empty-col"></div>
+            </div>
+        </section>
+
+        <section class="audience-section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="audience-title">Целевая аудитория</div>
+                </div>
+            </div>
+
+            <div class="audience-row" style="align-items: stretch; position: relative;">
+                <div class="col-3">
+                    <div class="audience-image-container">
+                        <img class="audience-image vasily-image" 
+                             src="css/imgs/thinder/pers1.png"
+                             alt="Василий"
+                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 500\'%3E%3Crect width=\'400\' height=\'500\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'200\' y=\'250\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3Epers1.png%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="person-info">
+                        <span>Василий</span>
+                        <span>22 года</span>
+                    </div>
+                </div>
+
+                <div class="col-4" style="display: flex; flex-direction: column; justify-content: space-between; height: auto;">
+                    <div class="audience-text vasily-main-text">
+                        Творческий студент, увлекается музыкой и&nbsp;винтажной одеждой. Ищет уникальные вещи и&nbsp;единомышленников, участвует в&nbsp;благотворительных мероприятиях. Мотивирован экономией, заботой об&nbsp;экологии и&nbsp;идеей осознанного потребления
+                    </div>
+                    <div class="audience-red-text vasily-red-text">
+                        Ожидает от приложения простой коммуникации и&nbsp;умных рекомендаций
+                    </div>
+                </div>
+
+                <div class="col-1" style="position: relative;">
+                    <img class="star-common star-audience" 
+                         src="css/imgs/thinder/stars/star1.svg"
+                         alt="star"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Cpolygon points=\'50,15 61,35 85,40 68,57 72,82 50,70 28,82 32,57 15,40 39,35 50,15\' fill=\'%23F50004\'/%3E%3C/svg%3E'">
+                </div>
+
+                <div class="col-2 empty-col"></div>
+            </div>
+
+            <div class="audience-row" style="align-items: stretch;">
+                <div class="col-2 empty-col"></div>
+                <div class="col-3">
+                    <div class="audience-image-container">
+                        <img class="audience-image alexey-image" 
+                             src="css/imgs/thinder/pers2.png"
+                             alt="Анна"
+                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 500\'%3E%3Crect width=\'400\' height=\'500\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'200\' y=\'250\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3Epers2.png%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="person-info">
+                        <span>Анна</span>
+                        <span>21 год</span>
+                    </div>
+                </div>
+
+                <div class="col-4" style="display: flex; flex-direction: column; justify-content: space-between; height: auto;">
+                    <div class="audience-text alexey-main-text">
+                        Творческая студентка, шьет и&nbsp;переделывает одежду в&nbsp;поиске уникального стиля. Участница фримаркетов, организатор эко-мероприятий в&nbsp;университете. Ищет материалы для&nbsp;проектов и&nbsp;возможность обмена, чтобы&nbsp;сократить траты. Мотивирована экологией
+                    </div>
+                    <div class="audience-red-text alexey-red-text">
+                        Ожидает от&nbsp;приложения&nbsp;быстрого доступа к&nbsp;событиям и&nbsp;полезным вещам для&nbsp;творчества
+                    </div>
+                </div>
+
+                <div class="col-3 empty-col"></div>
+            </div>
+        </section>
+
+        <section class="concept-section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="concept-title">Концепция</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="concept-text" id="conceptText1">
+                        Проанализировав целевую аудиторию&nbsp;— творческих ребят, которые ищут уникальные вещи, новых знакомых и&nbsp;заботятся об&nbsp;экологии&nbsp;— мы сформировали концепцию приложения
+                    </div>
+                </div>
+
+                <div class="col-1 empty-col"></div>
+
+                <div class="col-4">
+                    <div class="concept-text" id="conceptText2">
+                        Thinder совмещает ленту с&nbsp;вещами и&nbsp;механику взаимных симпатий: пользователь листает карточки и&nbsp;свайпает вправо, если&nbsp;хочет забрать вещь, или&nbsp;влево — если&nbsp;не&nbsp;заинтересовался.<br><br>
+                        При взаимном интересе открывается чат,&nbsp;где можно обсудить детали, обменяться фото или&nbsp;договориться о&nbsp;встрече. Добавление своих вещей тоже максимально упрощено: фото, название, описание и&nbsp;цена — и&nbsp;объявление готово
+                    </div>
+                </div>
+
+                <div class="col-1 empty-col"></div>
+
+                <div class="col-3">
+                    <div class="concept-text" id="conceptText3">
+                        Визуально это яркий, контрастный интерфейс в современном стиле, чтобы&nbsp;процесс поиска и&nbsp;обмена был&nbsp;увлекательным и&nbsp;понятным<br>для&nbsp;молодой аудитории
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="result-section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="result-title">Результат</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1 empty-col"></div>
+                <div class="col-3">
+                    <div class="result-text" id="resultText1" style="margin-bottom: 40px">
+                        Была проведена полноценная работа над&nbsp;проектом: от&nbsp;анализа целевой аудитории до&nbsp;финальной визуальной упаковки
+                    </div>
+                </div>
+                <div class="col-2 empty-col"></div>
+                <div class="col-3">
+                    <div class="result-text" id="resultText2" style="margin-bottom: 40px">
+                        Разработаны темная и&nbsp;светлая темы интерфейса для веб и&nbsp;мобильной версий
+                    </div>
+                </div>
+                <div class="col-3 empty-col"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="result-image-wrapper">
+                        <img class="result-image" 
+                             id="zoomImage"
+                             src="css/imgs/thinder/1.png"
+                             alt="THINDER result 1"
+                             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 1200 600\'%3E%3Crect width=\'1200\' height=\'600\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'600\' y=\'300\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3E1.png%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="position: relative; margin-bottom: 56px">
+                <div class="col-2"></div>
+                <div class="col-1" style="position: relative;">
+                    <img class="star-common star-result" 
+                         src="css/imgs/thinder/stars/star2.svg"
+                         alt="star"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Cpolygon points=\'50,15 61,35 85,40 68,57 72,82 50,70 28,82 32,57 15,40 39,35 50,15\' fill=\'%23F50004\'/%3E%3C/svg%3E'">
+                </div>
+                <div class="col-3">
+                    <div class="result-additional-text">
+                        Создана иконка приложения, 4&nbsp;экрана онбординга, комплект изображений для&nbsp;страницы в&nbsp;App&nbsp;Store, а&nbsp;также&nbsp;адаптивный промо-сайт
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+            <div class="row result-image-row" style="gap: 16px;">
+                <div class="col-6">
+                    <img class="result-image-left" 
+                         src="css/imgs/thinder/2.png"
+                         alt="THINDER screen 2"
+                         style="width: 100%; height: auto; display: block;"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 600 400\'%3E%3Crect width=\'600\' height=\'400\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'300\' y=\'200\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3E2.png%3C/text%3E%3C/svg%3E'">
+                </div>
+                <div class="col-6">
+                    <img class="result-image-right" 
+                         src="css/imgs/thinder/3.png"
+                         alt="THINDER screen 3"
+                         style="width: 100%; height: auto; display: block;"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 600 400\'%3E%3Crect width=\'600\' height=\'400\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'300\' y=\'200\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3E3.png%3C/text%3E%3C/svg%3E'">
+                </div>
+            </div>
+
+            <div class="row result-image-row" style="gap: 16px;">
+                <div class="col-4">
+                    <img class="result-image-left" 
+                         src="css/imgs/thinder/4.png"
+                         alt="THINDER screen 4"
+                         style="width: 100%; height: auto; display: block;"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 500\'%3E%3Crect width=\'400\' height=\'500\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'200\' y=\'250\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3E4.png%3C/text%3E%3C/svg%3E'">
+                </div>
+                <div class="col-8">
+                    <img class="result-image-right" 
+                         src="css/imgs/thinder/5.png"
+                         alt="THINDER screen 5"
+                         style="width: 100%; height: auto; display: block;"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 800 500\'%3E%3Crect width=\'800\' height=\'500\' fill=\'%23E8E8E8\'/%3E%3Ctext x=\'400\' y=\'250\' font-size=\'24\' text-anchor=\'middle\' fill=\'%23999\'%3E5.png%3C/text%3E%3C/svg%3E'">
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-nav">
+            <div class="footer-nav-row">
+                <button class="nav-button" onclick="window.location.href='arete.html'"> ← предыдущий проект</button>
+                <div class="nav-center" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                    <span class="nav-up-text">↑ в начало проекта ↑</span>
+                </div>
+                <button class="nav-button" onclick="window.location.href='esound.html'">следующий проект →</button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="row" style="align-items: flex-end; position: relative; z-index: 2;">
+                <div class="col-1">
+                    <div class="footer-copyright">2026</div>
+                </div>
+
+                <div class="col-1 empty-col"></div>
+                <div class="col-1 empty-col"></div>
+                <div class="col-1 empty-col"></div>
+                <div class="col-1 empty-col"></div>
+                <div class="col-1 empty-col"></div>
+
+                <div class="col-6">
+                    <div class="contact-block">
+                        <span class="contact-red-text">давайте сотрудничать!</span>
+                    </div>
+                    
+                    <div class="contact-row" style="display: flex; gap: 24px; align-items: flex-start;">
+                        <div class="contact-item" style="flex: 1;">
+                            <div class="contact-small-text">напишите мне в тг!</div>
+                            <a href="https://t.me/zhchkk" target="_blank" rel="noopener noreferrer" class="clickable-contact">
+                                <span class="contact-red-text">zhchk</span>
+                                <img class="contact-icon" 
+                                     src="css/imgs/main/tg.png"
+                                     alt="telegram"
+                                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'32\' height=\'32\' viewBox=\'0 0 32 32\'%3E%3Ccircle cx=\'16\' cy=\'16\' r=\'16\' fill=\'%2326A5E4\'/%3E%3Ctext x=\'16\' y=\'22\' text-anchor=\'middle\' fill=\'white\' font-size=\'14\'%3ETG%3C/text%3E%3C/svg%3E'">
+                            </a>
+                        </div>
+
+                        <div class="contact-item" style="flex: 1.5;">
+                            <div class="contact-small-text">или на почту:)</div>
+                            <div class="contact-text">
+                                <span class="contact-red-text">zhuchkk@gmail.com</span>
+                                <img class="contact-icon" 
+                                     src="css/imgs/main/mail.png"
+                                     alt="email"
+                                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'32\' height=\'32\' viewBox=\'0 0 32 32\'%3E%3Crect width=\'32\' height=\'32\' fill=\'%23EA4335\'/%3E%3Ctext x=\'16\' y=\'22\' text-anchor=\'middle\' fill=\'white\' font-size=\'14\'%3E@%3C/text%3E%3C/svg%3E'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/thinder_js.js"></script>
+</body>
+</html>
