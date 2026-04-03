@@ -314,12 +314,14 @@
 
         .concept-title {
             font-size: 32px;
+			font-weight: 500;
             color: #F50004;
             margin-bottom: 40px;
         }
 
         .result-title {
             font-size: 32px;
+			font-weight: 500;
             color: #F50004;
             margin-bottom: 40px;
         }
@@ -374,6 +376,7 @@
         .audience-title {
             font-size: 32px;
             color: #F50004;
+			font-weight: 500;
             margin-bottom: 40px;
         }
 
@@ -456,6 +459,7 @@
         .task-title {
             font-size: 32px;
             color: #F50004;
+			font-weight: 500;
             margin-bottom: 40px;
         }
 
@@ -641,7 +645,6 @@
         .contact-red-text {
             font-size: 32px;
             color: #F50004;
-            font-weight: 500;
             display: inline-block;
             white-space: nowrap;
         }

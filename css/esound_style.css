@@ -32,6 +32,7 @@
 
         body {
             font-family: 'Cygre', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+			font-weight: 400;
             background: #F1F3EE;
             color: #0E1822;
             line-height: 1.5;
@@ -210,6 +211,7 @@
         @media (min-width: 768px) and (max-width: 1279px) {
             .task-title, .concept-title, .result-title, .audience-title {
                 font-size: 28px;
+				font-weight: 500;
             }
             .task-text, .concept-text, .result-text, .audience-text, .hero-text-right p {
                 font-size: 18px;
@@ -356,12 +358,14 @@
 
         .concept-title {
             font-size: 32px;
+			font-weight: 500;
             color: #F50004;
             margin-bottom: 40px;
         }
 
         .result-title {
             font-size: 32px;
+			font-weight: 500;
             color: #F50004;
             margin-bottom: 40px;
         }
@@ -429,6 +433,7 @@
             font-size: 32px;
             color: #F50004;
             margin-bottom: 40px;
+			font-weight: 500;
         }
 
         .audience-row {
@@ -521,6 +526,7 @@
 
         .task-title {
             font-size: 32px;
+			font-weight: 500;
             color: #F50004;
             margin-bottom: 40px;
         }
@@ -692,7 +698,6 @@
         .contact-red-text {
             font-size: 32px;
             color: #F50004;
-            font-weight: 500;
             display: inline-block;
             white-space: nowrap;
         }
